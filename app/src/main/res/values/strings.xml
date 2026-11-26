@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ChargeGuard</string>
+
+    <string name="channel_monitoring">Protection monitoring</string>
+    <string name="channel_monitoring_desc">Shown while ChargeGuard is monitoring the charger connection.</string>
+    <string name="channel_alarm">Theft alarm</string>
+    <string name="channel_alarm_desc">Shown when the charger is disconnected while protection is armed.</string>
+    <string name="channel_status">Protection status</string>
+    <string name="channel_status_desc">Tells you when protection is off, for example after a restart.</string>
+
+    <string name="notif_waiting_title">Waiting for charger</string>
+    <string name="notif_waiting_text">Connect your charger to arm protection</string>
+    <string name="notif_armed_title">Charger protection active</string>
+    <string name="notif_armed_text">Alarm sounds if the charger is disconnected</string>
+    <string name="notif_checking_text">Checking power connection…</string>
+    <string name="notif_alarm_title">CHARGER DISCONNECTED</string>
+    <string name="notif_alarm_text">Alarm active. Reconnect the charger to stop it</string>
+    <string name="notif_alarm_body">Your phone is no longer connected to external power. The alarm stops when the charger is reconnected.</string>
+    <string name="notif_alarm_silenced">Siren time limit reached. Still disconnected: reconnect the charger.</string>
+    <string name="notif_alarm_audio_failed">Siren could not play. Vibration and this notification remain active. Reconnect the charger.</string>
+    <string name="notif_reconnected_title">Charger reconnected</string>
+    <string name="notif_reconnected_text">Alarm stopped. Re-arming protection…</string>
+    <string name="notif_starting_title">ChargeGuard</string>
+    <string name="notif_starting_text">Starting monitoring…</string>
+    <string name="notif_off_title">Charger protection is OFF</string>
+</resources>
